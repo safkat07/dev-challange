@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.header-title {
+  color: #000;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.h3-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.paragraph-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img-row-01 img {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 70%;
+
+  height: auto;
+  margin: 100px 0;
+}
+/* .img-row-01,
+.img-row-02,
+.img-row-03 {
+  margin: 0 auto;
+} */
+
+.img-row-02 img {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 70%;
+
+
+  height: auto;
+  margin: 100px 0;
+}
+.img-row-03 img {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 70%;
+
+
+  height: auto;
+  margin: 100px 0;
+}
+.img2-row2 {
+  padding-top: 100px;
+}
+
+.img-section {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 215px;
+  width: auto;
+}
+
+.row-img-name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: -100px;
+}
+
+.img-title {
+  color: #000;
+  font-family: PT Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/* .img-title-01{
+    position: absolute;
+    
+} */
+
+footer h4 {
+  color: #000;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 0;
+}
+
+/* responsive part  */
+@media screen and (max-width: 576px) {
+  .header-section {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .who-are-we-section {
+    margin-left: auto;
+  }
+  .header-title {
+    padding-bottom: 30px;
+    margin-right: auto;
+    font-size: 1.5rem;
+  }
+  .paragraph-text{
+    margin-right: 70px;
+  }
+  main img{
+    width: 100%;
+  }
+  .img-section{
+   margin-left: 0;
+   margin: 0 50px;
+  }
+
+}
